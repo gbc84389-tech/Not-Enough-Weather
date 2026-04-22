@@ -45,7 +45,7 @@ Aplicação web de clima que consome APIs externas para exibir informações met
 
 ## 📸 Preview
 
-*(adicione aqui um print do seu projeto)*
+<img width="1916" height="990" alt="Tempo" src="https://github.com/user-attachments/assets/52ee2e00-9273-43e4-875b-3a699cc11bfe" />
 
 ---
 
