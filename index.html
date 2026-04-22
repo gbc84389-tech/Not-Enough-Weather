@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-geral">
+        <div class="container-input">
+            <label for="">Entre com a cidade desejada</label>
+            <input type="text" id="inputcidade"></input>
+            <button onclick="getWeather()">Buscar</button>
+        </div>
+
+        <div class="container-conteudo">
+            <div class="container-top-left">
+                <h2>Cidade escolhida</h2>
+                <span id="cidade">No data</span>
+            </div>
+            <div class="container-top-right">
+                <h2>Graus</h2>
+                <span id="temperatura">No data</span>
+                <span class="infoAdd">(Máxima do dia)</span>
+            </div>
+            <div class="container-middle">
+                <h2>Sensação Térmica</h2>
+                <span id="sensacaotermica">No data</span>
+                <span class="infoAdd">(Média do dia)</span>
+            </div>
+            <div class="container-middle">
+                <h2>Direção do vento</h2>
+                <span id="direcaovento">No data</span>
+            </div>
+            <div class="container-middle">
+                <h2>Velocidade do vento</h2>
+                <span id="velocidadevento">No data</span>
+            </div>
+            <div class="container-middle">
+                <h2>Precipitação</h2>
+                <span id="precipitacao">No data</span>
+            </div>
+            <div class="container-bottom-left">
+                <h2>Probabilidade de precipitação</h2>
+                <span id="probabilidade">No data</span>
+            </div>
+            <div class="container-bottom-right">
+                <h2>Links do criador</h2>
+                <div class="links">
+                    <a href="https://github.com/gbc84389-tech" class="links-items"><img src="Imagens\github (1).png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/gustavo-borges-camargos-a472b13aa/?locale=en" class="links-items"><img src="Imagens\instagram.png" alt=""></a>
+                    <a href="https://www.instagram.com/z_borges.vs/" class="links-items"><img src="Imagens\linkedin.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="data" id="data"></div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
